@@ -1,0 +1,23 @@
+html, body {
+	background: #f7f7f7;
+	font-size: 16px;
+	font-family: Arial;
+}
+* {
+	margin: 0 auto;
+	padding: 0;
+}
+div, form {
+	position: relative;
+}
+ul {
+	padding-left: 20px;
+}
+p {
+	padding: 10px 0;
+}
+
+#content {
+	padding: 40px;
+	color: #555;
+}

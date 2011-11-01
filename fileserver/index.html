@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Node File Server</title>
+	<link href="stylesheet.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+
+<div id="content">
+	<h4>Welcome, <node:remoteAddr/>!</h4>
+	<p>Please select an image to view from the list</p>
+	<ul class="files">
+<node:files dir="/images">
+		<li><a href="<file:url/>" title="<file:name/>"><file:name/></a></li>
+</node:files>
+	</ul>
+	
+</div>
+
+</body>
+</html>
